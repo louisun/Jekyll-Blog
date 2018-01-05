@@ -1,0 +1,109 @@
+# Site settings 配置站点
+title: '王爵的一亩三分地'
+description: '很高兴能在这里与你分享我对技术和生活的思考。'
+keyword: '王爵nice, 王爵nice的独立博客, 王爵nice的博客, 后端, 后端开发, 后端博客, java, github, 开源项目'
+url: 'https://blog.biezhi.me'
+baseurl: ''
+cdnurl: /assets
+#photos_prefix: /aaaa
+excerpt_separator:  '<!-- more -->'
+lang: zh_CN
+permalink: /:title.html
+
+# Navigation links
+navigation:
+  - title: 首页
+    url: /
+  - title: 归档
+    url: /archive.html
+  - title: 标签
+    url: /tags.html
+  - title: 友链
+    url: /links.html
+  - title: 关于
+    url: /about.html
+
+# Author 配置博主信息
+author: 'biezhi'
+nickname: '王爵nice'
+bio: '程序员，极客，开源爱好者，追求一切美的事物，好交良友。'
+avatar: '/assets/img/profile.jpeg'
+
+# Search
+search: true
+
+# Night mode
+nightMode: false
+
+# Comments
+disqus: false
+disqus_shortname: blog-biezhi-me
+
+# Share
+social-share: true
+social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
+
+# theme color 主题皮肤
+theme-color: 'default'  # pink or default
+
+# Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
+postPatterns: 'food'
+
+# SNS settings 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
+sns:
+  twitter: 'https://twitter.com/biezhii'
+  juejin: 'https://juejin.im/user/5630dae560b2febe0fdfef0d'
+  instagram: 'https://www.instagram.com/biezhii'
+  zhihu: 'https://www.zhihu.com/people/biezhi'
+  github: 'https://github.com/biezhi'
+
+# Tags 设置标签
+recommend-tags: true # whether or not display recommend-tags on the sidebar
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
+
+# 分页设置
+paginate: 5
+paginate_path: 'articles/:num'
+
+# Markdown
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids:       true
+  auto_id_prefix: 'id-'
+  toc_levels:     '2,3'
+  smart_quotes:   lsquo,rsquo,ldquo,rdquo
+
+jekyll-archives:
+  enabled:
+    - month
+  layout: 'archive'
+  permalinks:
+#    year: '/:year/'
+    month: '/:year/:month/'
+#    day: '/:year/:month/:day/'
+#    tag: '/tag/:name/'
+#    category: '/category/:name/'
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+
+exclude:
+  - node_modules
+  - dev
+  - package.json
+  - gulpfile.js
+  - .gitignore
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - .DS_Store
+  - deploy.sh
+  - screenshot
+  - LICENSE
