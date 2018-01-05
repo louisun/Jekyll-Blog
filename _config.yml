@@ -33,10 +33,10 @@ avatar: '/assets/img/profile.jpeg'
 search: true
 
 # Night mode
-nightMode: false
+nightMode: true
 
 # Comments
-disqus: false
+disqus: true
 disqus_shortname: blog-biezhi-me
 
 # Share
@@ -62,7 +62,7 @@ recommend-tags: true # whether or not display recommend-tags on the sidebar
 recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
 # 分页设置
-paginate: 5
+paginate: 6
 paginate_path: 'articles/:num'
 
 # Markdown
@@ -107,3 +107,4 @@ exclude:
   - deploy.sh
   - screenshot
   - LICENSE
+  - README.md
