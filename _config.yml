@@ -8,7 +8,7 @@ cdnurl: /assets
 #photos_prefix: /aaaa
 excerpt_separator:  '<!-- more -->'
 lang: zh_CN
-permalink: /:title.html
+permalink: /:year/:month/:title.html
 
 # Navigation links
 navigation:
