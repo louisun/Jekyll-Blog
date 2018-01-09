@@ -8,6 +8,8 @@ date: 2018-01-01
 
 仰慕「优雅编码的艺术」。
 
+我的博客托管在 [这家云服务器](https://my.cloudleft.com/aff.php?aff=498){:target="_blank"}
+
 ## 坚信
 
 * 熟能生巧
