@@ -37,7 +37,7 @@ nightMode: true
 
 # Comments
 disqus: true
-disqus_url: https://dn-biezhi.qbox.me/embed.js
+disqus_url: https://blog-biezhi-me.disqus.com/embed.js
 
 # Share
 social-share: true
