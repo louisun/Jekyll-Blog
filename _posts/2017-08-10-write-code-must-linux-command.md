@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 写代码怎能不会这些 Linux 命令？
+toc: true
 cover: /img/cover/write-code-must-linux-command.jpg
 tags: ['linux', '终端', '编程']
 ---

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 用 golang 来编写 cli 程序吧，Happy~
+toc: true
 cover: /img/cover/use-golang-write-cli-programs.jpg
 tags: ['golang', '命令行', 'cli']
 ---

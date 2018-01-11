@@ -1,6 +1,7 @@
 ---
 layout: post
 title: SSH免密登录是怎么玩儿的?
+toc: true
 cover: /img/cover/ssh-no-password-login.jpg
 tags: ['ssh', 'github']
 ---

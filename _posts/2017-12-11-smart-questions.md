@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 提问的智慧 - 中文版
+toc: true
 cover: /img/cover/smart-questions.jpg
 tags: ['提问', '沟通']
 ---

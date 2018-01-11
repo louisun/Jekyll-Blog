@@ -21,13 +21,15 @@
     {% if site.baidu_verify %}
     <meta name="baidu-site-verification" content="{{ site.baidu_verify }}" />
     {% endif %}
+    {% if site.baidu_tj %}
     <script>
         var _hmt = _hmt || [];
         (function() {
             var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?8cccd241573243ebb44564215283cd3c";
+            hm.src = "https://hm.baidu.com/hm.js?{{ site.baidu_tj }}";
             var s = document.getElementsByTagName("script")[0];
             s.parentNode.insertBefore(hm, s);
         })();
     </script>
+    {% endif %}
 </head>

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 30分钟使用 Node 实现一个命令行程序
+toc: true
 cover: /img/cover/lets-30-minutes-write-a-node-cli-application.jpg
 tags: ['nodejs', '命令行']
 ---

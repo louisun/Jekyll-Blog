@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 教你使用 asciinema 录制命令行操作
+toc: true
 cover: /img/cover/teach-you-how-to-use-asciinema.png
 tags: ['asciinema', '终端', '命令行']
 ---

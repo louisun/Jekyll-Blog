@@ -48,6 +48,7 @@ theme-color: 'default'  # pink or default
 
 # 百度统计
 baidu_verify: PZYc0mdO5T
+baidu_tj: 8cccd241573243ebb44564215283cd3c
 
 # Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
 postPatterns: 'food'
@@ -89,6 +90,10 @@ jekyll-archives:
 #    tag: '/tag/:name/'
 #    category: '/category/:name/'
 
+toc:
+  min_level: 2 # default: 1
+  max_level: 3 # default: 6
+
 # Plugins
 plugins:
   - jekyll-paginate
@@ -96,6 +101,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-archives
+  - jekyll-toc
 
 exclude:
   - node_modules
