@@ -8,7 +8,7 @@ tags: ['框架设计', '爬虫', 'Scrapy']
 
 说起爬虫，大家能够想起 `Python` 里赫赫有名的 [Scrapy](https://scrapy.org/){:target="_blank"} 框架，
 在本文中我们参考这个设计思想使用 Java 语言来实现一款自己的爬虫框（lun）架（zi）。
-我们从起点一步一步分析爬虫框架的诞生过程，以及现有框架的一些对比和区别。
+我们从起点一步一步分析爬虫框架的诞生过程。
 
 我把这个爬虫框架的源码放在 [github](https://github.com/biezhi/elves){:target="_blank"} 上，里面有几个例子可以运行。
 
