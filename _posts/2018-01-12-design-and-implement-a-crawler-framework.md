@@ -2,7 +2,7 @@
 layout: post
 title: 设计和实现一款轻量级的爬虫框架
 toc: true
-cover: /img/cover/elves.png
+cover: /img/cover/design-and-implement-a-crawler-framework.png
 tags: ['框架设计', '爬虫', 'Scrapy']
 ---
 
@@ -160,7 +160,7 @@ public class Reptile {
 
 ### 架构图
 
-<img src="{{ "/img/cover/elves.png" | prepend: site.cdnurl }}" width="80%" alt="Elves架构图" title="Elves架构图"/>
+<img src="{{ "/img/2018/01/elves.png" | prepend: site.cdnurl }}" width="80%" alt="Elves架构图" title="Elves架构图"/>
 
 整个流程和 Scrapy 是一致的，但简化了一些操作
 
