@@ -11,7 +11,6 @@ date: 2018-01-01
 * [seoui](http://blog.seoui.com){:target="_blank"}
 * [Data羊](http://www.datayang.com){:target="_blank"}
 * [HongQuan's Blog](https://www.devtool.top){:target="_blank"}
-* [SUNZHENYU Blog](http://sunzhenyu.net){:target="_blank"}
 * [二三克](https://blog.show){:target="_blank"}
 * [小胖](http://www.ctrlcvs.com){:target="_blank"}
 * [yubutong](http://yubutong.cn){:target="_blank"}
