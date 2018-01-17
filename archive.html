@@ -27,8 +27,9 @@ layout: default
         </li>
         {% else %}
         {% if this_year != next_year %}
-        <span class="archive-name" id="{{post.previous.date | date: "%Y-%m" }}">「{{ post.previous.date | date: "%Y年%m月" }}」</span>
+        </li>
         <li>
+        <span class="archive-name" id="{{post.previous.date | date: "%Y-%m" }}">「{{ post.previous.date | date: "%Y年%m月" }}」</span>
         {% else %}
         {% if this_month != next_month %}
         </li>
