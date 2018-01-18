@@ -5,6 +5,10 @@
 
 该主题是基于 `Jekyll3` + `Gulp` 构建的。
 
+[![](https://img.shields.io/badge/license-MIT-FF0080.svg)](https://github.com/biezhi/jekyll-theme-H2O/blob/master/LICENSE)
+[![@biezhi on zhihu](https://img.shields.io/badge/zhihu-%40biezhi-red.svg)](https://www.zhihu.com/people/biezhi)
+[![](https://img.shields.io/github/followers/biezhi.svg?style=social&label=Follow%20Me)](https://github.com/biezhi)
+
 ## 预览
 
 **首页**
