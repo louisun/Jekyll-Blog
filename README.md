@@ -1,7 +1,9 @@
-# 王爵的一亩三分地
+# Jekyll Blog
 
-这是一个 `Jekyll` 主题的模板，我修改自 [theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O)，针对字体和板式以及功能做了大量优化。
-我经常会用到一些灵活多变的功能，自定义比较强。所以选择了静态博客作为站点，如果你也喜欢它可以点个 `star`。
+既然是 MIT 许可证，那我就恬不知耻地改了原作者的一些信息。
+
+这是一个 `Jekyll` 主题的模板，修改自 [theme-H2O](https://github.com/kaeyleo/jekyll-theme-H2O)，针对字体和板式以及功能做了大量优化。
+我经常会用到一些灵活多变的功能，自定义比较强。
 
 该主题是基于 `Jekyll3` + `Gulp` 构建的。
 
