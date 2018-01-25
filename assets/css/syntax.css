@@ -11,7 +11,7 @@
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 16px;
   word-wrap: break-word;
-  word-break: break-all;
+  /* word-break: break-all; */
 }
 
 .markdown-body code, .markdown-body kbd, .markdown-body pre{
@@ -317,6 +317,8 @@
   font-weight: 600;
 }
 
+
+
 .markdown-body p {
   margin-bottom: 20px;
   font-size: 16px;
@@ -591,7 +593,7 @@ li p:nth-child(2) {
 .markdown-body p code {
   padding: 0.2em 0.4em;
   margin: 0;
-  font-size: 85%;
+  font-size: 100%;
   font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
   background-color: rgba(27,31,35,0.05);
   border-radius: 3px;
@@ -619,12 +621,19 @@ li p:nth-child(2) {
 code, pre {
   font-size: 12px;
   font-family: monaco,Consolas,monospace;
-  background-color: #f5f5f5;
+  font-weight: bold;
+  background-color: #f9f2f4;
+  color: #c7254e;
   overflow: auto;
   padding: 5px 10px;
   word-wrap: break-word;
   white-space: pre-wrap;
 }
+
+
+pre ::selection{background-color: #33CCFF}
+pre ::-moz-selection{background-color:#33CCFF}
+pre ::-webkit-selection{background-color:#33CCFF}
 
 pre code {
   display: inline;

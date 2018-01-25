@@ -1,10 +1,10 @@
 # Site settings 配置站点
-title: '王爵的一亩三分地'
+title: 'Louisunの小屋'
 description: '很高兴能在这里与你分享我对技术和生活的思考。'
-keyword: '王爵nice, 王爵nice的独立博客, 王爵nice的博客, 后端, 后端开发, 后端博客, java, github, 开源项目'
-url: 'https://blog.biezhi.me'
+keyword: 'Louisun, Louisun的独立博客, Louisune的博客, 后端, 后端开发, 后端博客, java, github, 开源项目'
+url: 'https://www.louisun.me'
 baseurl: ''
-cdnurl: /assets
+# cdnurl: 
 #photos_prefix: /aaaa
 excerpt_separator:  '<!-- more -->'
 lang: zh_CN
@@ -24,20 +24,21 @@ navigation:
     url: /about.html
 
 # Author 配置博主信息
-author: 'biezhi'
-nickname: '王爵nice'
-bio: '程序员，极客，开源爱好者，追求一切美的事物，好交良友。'
-avatar: '/assets/img/profile.jpeg'
+author: 'Louisun'
+nickname: 'LouisGem'
+bio: 'Gem 很好听啊'
+avatar: '/assets/img/profile.png'
 
 # Search
 search: true
 
 # Night mode
-nightMode: true
+nightMode: false
 
 # Comments
 disqus: true
-disqus_url: https://blog-biezhi-me.disqus.com/embed.js
+disqus_url: 'https://roadsheep.disqus.com/embed.js'
+
 
 # Share
 social-share: true
@@ -47,19 +48,18 @@ social-share-items: ['wechat', 'weibo', 'douban', 'twitter']
 theme-color: 'default'  # pink or default
 
 # 百度统计
-baidu_verify: PZYc0mdO5T
-baidu_tj: 8cccd241573243ebb44564215283cd3c
+# baidu_verify: 
+baidu_tj: 0ea997e7844552a544232688dccdf05b
 
 # Post header background patterns (when the post no cover): circuitBoard, overlappingCircles, food, glamorous, ticTacToe, seaOfClouds
 postPatterns: 'food'
 
 # SNS settings 配置社交网站url: weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
-  twitter: 'https://twitter.com/biezhii'
-  juejin: 'https://juejin.im/user/5630dae560b2febe0fdfef0d'
-  instagram: 'https://www.instagram.com/biezhii'
-  zhihu: 'https://www.zhihu.com/people/biezhi'
-  github: 'https://github.com/biezhi'
+  zhihu: 'https://www.zhihu.com/people/louisun'
+  weibo: 'https://weibo.com/6405545706'
+  douban: 'https://www.douban.com/people/roadsheep'
+  github: 'https://github.com/louisun'
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
@@ -70,7 +70,8 @@ paginate: 6
 paginate_path: 'articles/:num'
 
 # Markdown
-highlighter: rouge
+# highlighter: rouge
+highlighter: rough
 markdown: kramdown
 kramdown:
   input: GFM
