@@ -4,4 +4,5 @@ node_modules
 _site
 .idea
 *.iml
+backup
 /Gemfile.lock

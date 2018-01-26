@@ -2,7 +2,7 @@
 title: 'Louisunの小屋'
 description: '很高兴能在这里与你分享我对技术和生活的思考。'
 keyword: 'Louisun, Louisun的独立博客, Louisune的博客, 后端, 后端开发, 后端博客, java, github, 开源项目'
-url: 'https://www.louisun.me'
+url: 'http://www.louisun.me'
 baseurl: ''
 # cdnurl: 
 #photos_prefix: /aaaa
@@ -117,3 +117,4 @@ exclude:
   - screenshot
   - LICENSE
   - README.md
+  - backup
