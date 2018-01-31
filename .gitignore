@@ -6,3 +6,5 @@ _site
 *.iml
 backup
 /Gemfile.lock
+
+_posts/*
