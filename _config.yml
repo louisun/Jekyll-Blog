@@ -26,7 +26,7 @@ navigation:
 # Author 配置博主信息
 author: 'Louisun'
 nickname: 'Louisun'
-bio: '要心平气和地接受这个世界啊'
+bio: '抬头看天，低头看路'
 avatar: '/assets/img/profile.png'
 
 # Search
@@ -69,9 +69,13 @@ recommend-condition-size: 12 # a tag will be recommended if the size of it is mo
 paginate: 6
 paginate_path: 'articles/:num'
 
+# mathjax
+mathjax: true
+
 # Markdown
 # highlighter: rouge
 highlighter: rough
+# markdown: maruku
 markdown: kramdown
 kramdown:
   input: GFM
